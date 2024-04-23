@@ -1,3 +1,40 @@
 .container-fluid{
     background-color: aqua;
 }
+.top-container{
+    display:grid;
+    grid-gap:20px;
+    grid-template-areas:
+    'place1 place2 place3' ;
+    justify-items: center;
+
+}
+.place1{
+    grid-area: place1;
+}
+.place2{
+    grid-area: place2;
+}
+.place3{
+    grid-area: place3;
+}
+.header{
+    text-align: center;
+}
+.top-container2{
+    display:grid;
+    grid-gap:20px;
+    grid-template-areas:
+    'left right' ;
+    justify-items: center;
+
+}
+.left{
+    grid-area: left;
+}
+.right{
+    grid-area: right;
+}
+.form-label{
+    border-color: black!important;
+}
